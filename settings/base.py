@@ -23,12 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'qo-5q&h&pwc@r4aej!rqiq*)d(8q9g6v(x=s!6+&k&-n4e15@)'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['todo-api-institute.herokuapp.com', 'localhost', '127.0.0.1']
-
-
 # Application definition
 
 INSTALLED_APPS = [
